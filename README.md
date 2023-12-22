@@ -3,7 +3,7 @@
 
 ConvAssist is a library intended to enable and empower users with disabilities to communicate using the latest language modeling technologies, via Intel's Assistive Context Aware Toolkit, ACAT. ConvAssist can quickly suggest utterances/sentences that the user can use to have a social conversation or communicate with their caregiver in near real time. 
 
-ConvAssist is built on Pressagio, that is a library that predicts text based on n-gram models (https://pressagio.readthedocs.io, https://github.com/Poio-NLP/pressagio). Pressagio is a pure Python port of the presage library: https://presage.sourceforge.io and is part of the Poio project: https://www.poio.eu
+ConvAssist is built on [Pressagio](https://github.com/Poio-NLP/pressagio), that is a library that predicts text based on n-gram models. Pressagio is a pure Python port of the [presage library](https://presage.sourceforge.io) and is part of the [Poio project](https://www.poio.eu).  
 
 ConvAssist contains language models based on specific Assistive and Augmentative Communication (AAC) datasets, and dialog datasets, tailored for day-to-day communication in our assistive usecase. These language models support both next word prediction and sentence completion for enabling near-real time communication with least amount of user effort and intervention. 
 
