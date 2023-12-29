@@ -27,7 +27,7 @@ ConvAssist works with Python 3.11.5. Create a virtual environment and install th
 Clone the project. 
 ```
 cd ConvAssist
-pip install -r requirements_py3115.txt
+pip install -r requirements.txt
 ```
 In the ConvAssist folder, 
 ```
