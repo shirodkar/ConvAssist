@@ -102,9 +102,9 @@ non-standard location, please set PYTHONPATH accordingly).
         if not config:
             SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
-            config_file = os.path.join(SCRIPT_DIR, "DialoBridge_sentenceMode.ini")
-            # config_file = os.path.join(SCRIPT_DIR, "DialoBridge_shortHandMode.ini")
-            # config_file = os.path.join(SCRIPT_DIR, "DialoBridge_cannedPhrasesMode.ini")
+            config_file = os.path.join(SCRIPT_DIR, "wordPredMode.ini")
+            # config_file = os.path.join(SCRIPT_DIR, "shortHandMode.ini")
+            # config_file = os.path.join(SCRIPT_DIR, "cannedPhrasesMode.ini")
             config = configparser.ConfigParser()
             config.read(config_file)
 

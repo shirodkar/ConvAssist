@@ -975,9 +975,13 @@ class SmoothedNgramPredictor(Predictor):  # , pressagio.observer.Observer
                         frequency = float(numerator) / denominator
                     probability += self.deltas[k] * frequency
                 if probability > 0:
-                    prediction.add_suggestion(
-                        Suggestion(tokens[self.cardinality - 1], probability, self.name)
-                    )
+                    if all(char in string.punctuation for char in tokens[self.cardinality - 1]):
+                        print(tokens[self.cardinality - 1]+ " contains punctuations ")
+                        convAssistLog.Log(tokens[self.cardinality - 1]+ " contains punctuations ")
+                    else:
+                        prediction.add_suggestion(
+                            Suggestion(tokens[self.cardinality - 1], probability, self.name)
+                        )
         except Error as e:
             convAssistLog.Log("Exception in SmoothedNgramPredictor predict function  = "+e)
 
