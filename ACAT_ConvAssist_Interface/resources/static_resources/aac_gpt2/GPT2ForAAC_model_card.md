@@ -33,12 +33,6 @@ The model is a part of ACAT's ConvAssist package, that has been built to enable 
 The model could also be further fine-tuned by developers to enhance the sentence completion performance. 
 
 
-## Out-of-Scope Use  **(FOR REVIEW - DO WE NEED THIS SECTION?)**
-
-<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
-<!-- If the user enters content, print that. If not, but they enter a task in the list, use that. If neither, say "more info needed." -->
-
-
 
 
 # Bias, Risks, and Limitations
