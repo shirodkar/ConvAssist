@@ -1,4 +1,4 @@
-# Copyright (C) <year(s)> Intel Corporation
+# Copyright (C) 2023 Intel Corporation
 
 
 # SPDX-License-Identifier: Apache-2.0
@@ -21,7 +21,6 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 import os
-import pickle
 import collections
 import string
 import hnswlib
@@ -34,7 +33,6 @@ import regex as re
 import json
 import time
 import spacy
-import argparse
 import logging
 from string import punctuation
 import nltk
