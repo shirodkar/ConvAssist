@@ -1,4 +1,4 @@
-# Copyright (C) <year(s)> Intel Corporation
+# Copyright (C) 2023 Intel Corporation
 
 
 # SPDX-License-Identifier: Apache-2.0
@@ -21,7 +21,6 @@ import torch
 import torch.nn.functional as F
 import numpy as np
 import os
-import pickle
 import collections
 import string
 import hnswlib
@@ -34,7 +33,6 @@ import regex as re
 import json
 import time
 import spacy
-import argparse
 import logging
 from string import punctuation
 import nltk
@@ -64,8 +62,16 @@ from transformers import pipeline, set_seed
 
 
 try:
+    #base_path = sys._MEIPASS
+    #nlp = spacy.load(os.path.join(base_path, "en_core_web_sm", "en_core_web_sm-3.5.0"))
     base_path = sys._MEIPASS
-    nlp = spacy.load(os.path.join(base_path, "en_core_web_sm", "en_core_web_sm-3.5.0"))
+    en_core_path = base_path+"/en_core_web_sm/"
+    files = os.listdir(en_core_path)
+    for file in files:
+        if file.lower().startswith("en_core_web_sm"):
+            file_path = os.path.join(en_core_path, file)
+            nlp = spacy.load(file_path)
+
 except Exception as e:
     nlp = spacy.load("en_core_web_sm")
 

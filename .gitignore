@@ -1,0 +1,4 @@
+venv
+__pycache__/
+convAssist.egg-info/
+tests/test_data/test.db

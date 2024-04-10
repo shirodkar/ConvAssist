@@ -1,5 +1,5 @@
 """
- Copyright (C) <year(s)> Intel Corporation
+ Copyright (C) 2023 Intel Corporation
 
  SPDX-License-Identifier: Apache-2.0
 
@@ -75,7 +75,6 @@ licesnce_text_string2 = "Copyright (c) 2013-2017 Intel Corporation\n" \
                 "based on n-gram models (https://pressagio.readthedocs.io, https://github.com/Poio-NLP/pressagio).  \n "\
                 "Pressagio is a pure Python port of the presage library: https://presage.sourceforge.io \n "\
                 "and is part of the Poio project: https://www.poio.eu. \n"\
-
                 " \n" \
                 + version_ConvAssist
 
