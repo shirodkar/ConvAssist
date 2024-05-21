@@ -88,6 +88,10 @@ We compare the base GPT2 model and our fine-tuned model and observe that the gap
 |GPT2 Base Model| 0.42|0.39|0.15| 0.166|
 |GPT2 Finetuned on AAC​|**0.50** | **0.515​**|**0.102​**|**0.101​**|
 
+# Forseeable Misuses
+
+Uses that require high levels of factuality, high stakes situations, mental health or medical applications, generating misinformation or disinformation, impersonating others, facilitating or inciting harassment or violence, any use that could lead to the violation of a human right under the UN Declaration of Human Rights.  
+
 
 
 
