@@ -90,29 +90,5 @@ We compare the base GPT2 model and our fine-tuned model and observe that the gap
 
 
 
-## Testing Data, Factors & Metrics **(FOR REVIEW - DO WE NEED THIS SECTION GIVEN THAT WE HAVE THE TOXICITY, BIAS EVALUATION?)**
-
-### Testing Data
-
-<!-- This should link to a Data Card if possible. -->
-
-More information needed
-
-
-### Factors
-
-<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
-
-More information needed
-
-### Metrics
-
-<!-- These are the evaluation metrics being used, ideally with a description of why. -->
-
-More information needed
-
-## Results 
-
-More information needed
 
 
