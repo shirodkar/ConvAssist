@@ -2,13 +2,6 @@
 
 echo "####### RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 pip install --upgrade pip
-pip install virtualenv
-virtualenv myenv
-source myenv/bin/activate
-pip install -r ../../requirements.txt
-pip install wxPython
-pip install -e .
-
 echo "####### FINISHED RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 
 echo "####### RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
