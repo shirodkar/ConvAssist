@@ -6,5 +6,5 @@ pip install virtualenv
 echo "####### FINISHED RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 
 echo "####### RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
-exec /tmp/scripts/assemble
+exec /usr/libexec/s2i/assemble
 echo "####### FINISHED RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
